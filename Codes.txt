@@ -43,6 +43,18 @@ To get changes on local master branch from origin
 #git pull
 #git branch -d (branch-name)
 
+#git commit -am "message"
+#git merge master
+
+##Undo Staging
+
+#git reset
+#git status to check
+#git reset HEAD~1 (unstaged and uncommitted the changes of both add and commit the most reent and 1 more change before it)
+#git log
+#git reset (hashnumber from log)
+#git reset --hard (hashnumber from log)
+
 
 
 
