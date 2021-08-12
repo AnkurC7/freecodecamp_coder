@@ -11,7 +11,8 @@
 #git commit -m "Title" -m "Description"
 #git remote add origin (create new repo and psste link)
 #git remote -v
-#git push -u origin master {can use git push from next time using upstream)
+#git branch -M main
+#git push -u origin main {can use git push from next time using upstream)
 
 
 ##SSH KEYS
@@ -21,5 +22,28 @@
 ##UPLOAD testkey.pub to github interface
 #eval "$(ssh-agent -s)"
 #ssh-add -K id_rsa or path to id_rsa ~/.ssh/id_rsa
+
+##branching
+
+#git branch
+#git checkout -b feature-new-addons-instruction {fea or inst tab to autocomplete}
+#git branch
+#git checkout main
+#git branch
+
+#git diff branch-name (master branch doesn't have what's in red)
+#git checkout branch-name
+#git push -u origin branch-name
+
+##pull request PR
+feature branch to master branch
+
+To get changes on local master branch from origin
+
+#git pull
+#git branch -d (branch-name)
+
+
+
 
 
